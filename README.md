@@ -123,26 +123,28 @@ This ensures:
 ## YOLOv8 Results
 ## YOLO F1 Curve
 <p align="center">
-  <img src="assets/BoxF1_curve.png" width="500"/>
+  <img src="assets/BoxF1_curve.png" width="700"/>
 </p>
 
 ## YOLO Precision Curve
 <p align="center">
-  <img src="assets/BoxP_curve.png" width="500"/>
+  <img src="assets/BoxP_curve.png" width="700"/>
 </p>
 
 ## YOLO Recall Curve
 <p align="center">
-  <img src="assets/BoxR_curve.png" width="500"/>
+  <img src="assets/BoxR_curve.png" width="700"/>
 </p>
 
 ## YOLO Precision-Recall Curve
 <p align="center">
-  <img src="assets/BoxPR_curve.png" width="500"/>
+  <img src="assets/BoxPR_curve.png" width="700"/>
 </p>
 
 ## YOLO Confusion Matrix
-![CM](assets/confusion_matrix_normalized.png)
+<p align="center">
+  <img src="assets/confusion_matrix_normalized.png" width="700"/>
+</p>
 
 
 
