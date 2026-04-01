@@ -49,8 +49,12 @@ Used when no fruits are detected.
 
 ---
 
-## 📊 Dashboard
-![Dashboard](assets/g1.png)
+## Leaf Mask and Skeleton of Tomato plant
+![Mask and Skeleton](assets/g1.png)
+
+## Growth Mapping of Tomato plant
+![Growth](assets/g2.png)
+
 
 ### 🔹 2. Fruit Detection Model (YOLOv8)
 
@@ -64,6 +68,11 @@ Activated when fruits are present.
   - Maturity stage (if trained)
 
 👉 This stage helps shift focus from vegetative growth to yield estimation.
+
+
+## YOLO Detection
+![YOLO Detection](assets/g3.png)
+
 
 ---
 
@@ -90,7 +99,29 @@ This ensures:
 
 ---
 
+## YOLOv8 Results
+
+## YOLO F1 Curve
+![F1 curve](assets/BoxF1_curve.png)
+
+## YOLO Precision Curve
+![P curve](assets/BoxP_curve.png)
+
+## YOLO Recall Curve
+![R curve](assets/BoxR_curve.png)
+
+## YOLO Precision-Recall Curve
+![PR curve](assets/BoxPR_curve.png)
+
+
+## YOLO Confusion Matrix
+![CM](assets/confusion_matrix_normalized.png)
+
+
+
 ## 🚀 Pipeline Overview
+
+![Pipeline](assets/growth_model.drawio.png)
 
 1. Input image  
 2. Run YOLO detection  
@@ -101,3 +132,4 @@ This ensures:
    - Estimate plant growth  
 
 ---
+
