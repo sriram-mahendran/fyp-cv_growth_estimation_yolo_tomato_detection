@@ -28,16 +28,37 @@ This dataset is used strictly for academic and research purposes. All credits be
 
 ## ⚙️ Methodology
 
-This project implements a **dual-model (switchover) system**:
+This project implements a dual-model (switchover) system:
 
-### 🔹 1. Growth Estimation Model (Computer Vision)
-
+🔹 1. Growth Estimation Model (Computer Vision)  
 Used when no fruits are detected.
 
-#### Steps:
+### 📊 Dataset (Growth Estimation Support)
+
+For validating and testing the growth estimation pipeline, the following dataset was used:
+
+🔗 https://www.kaggle.com/datasets/arjunsudheer326/tomato-plant-stages-dataset  
+
+- Contains 500 images of tomato plants captured under real field conditions  
+- Includes two growth stages:
+  - Early Vegetative 🌿  
+  - Flowering Initiation 🌼  
+- Images collected from Tamil Nadu Agricultural University (TNAU) fields  
+
+**License:**  
+Creative Commons Attribution 4.0 (CC BY 4.0)  
+https://creativecommons.org/licenses/by/4.0/
+
+**Usage Note:**  
+This dataset was used for testing and validating the growth estimation model. Proper credit is given to the original dataset authors. No ownership is claimed.
+
+---
+
+### ⚙️ Growth Estimation Steps
+
 1. Input plant image  
-2. Convert image to appropriate color space (e.g., RGB → HSV/ExG)  
-3. Compute **Vegetation Index** (e.g., Excess Green Index - ExG)  
+2. Convert image to appropriate color space (e.g., RGB → HSV / ExG)  
+3. Compute **Vegetation Index** (Excess Green Index - ExG)  
 4. Apply thresholding to isolate plant region  
 5. Perform morphological operations (noise removal, smoothing)  
 6. Skeletonization to estimate plant structure  
