@@ -49,6 +49,9 @@ Used when no fruits are detected.
 
 ---
 
+## 📊 Dashboard
+![Dashboard](assets/g1.png)
+
 ### 🔹 2. Fruit Detection Model (YOLOv8)
 
 Activated when fruits are present.
