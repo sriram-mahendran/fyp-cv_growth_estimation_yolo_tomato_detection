@@ -1,0 +1,13 @@
+path: D:/FYP/PlantGrowth/data/laboro_tomato
+
+train: train/images
+val: val/images
+
+nc: 6
+names:
+  - b_fully_ripened
+  - b_half_ripened
+  - b_green
+  - l_fully_ripened
+  - l_half_ripened
+  - l_green
